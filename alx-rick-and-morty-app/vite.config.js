@@ -8,7 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './'),
-      '@/components': path.resolve(__dirname, './src/components'),
+      '@/components': path.resolve(__dirname, './components'),
       '@/graphql': path.resolve(__dirname, './graphql'),
       '@/interfaces': path.resolve(__dirname, './interfaces/index.ts'),
     },
